@@ -32,9 +32,21 @@ a:hover {
     background-color: rgb(176, 196, 206);
 }
 
-.recipelist .listimg {
+.recipelist img {
     height: auto;
     width: 100px;
+}
+
+.recipelist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.recipelist li {
+    flex: 1;
+    align-self: flex-end;
 }
 
 .ingredients-mainimg {
