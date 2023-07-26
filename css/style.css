@@ -18,8 +18,10 @@ ol {
     max-width: 40em;
     max-width: 85ch;
     margin: 20px;
+}
+
+ul {
     list-style: none;
-    
 }
 
 a {
