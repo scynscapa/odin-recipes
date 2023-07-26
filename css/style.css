@@ -1,5 +1,11 @@
 * {
     font-family: Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+html * {
+    background-color: #CBEBF7;
 }
 
 img {
@@ -9,12 +15,40 @@ img {
 
 ul,
 ol {
-    line-height: 25px;
+    line-height: 1.5;
     max-width: 40em;
     max-width: 85ch;
+    margin: 20px;
+    list-style: none;
     
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(176, 196, 206);
+}
+
+.recipelist .listimg {
+    height: auto;
+    width: 100px;
+}
+
+.ingredients-mainimg {
+    margin: 2px;
+    padding: 4px;
+
+    display: inline-block;
+}
+.mainimg,
+.ingredients {
+    display: inline-block;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.mainimg {
+    vertical-align: middle;
 }
