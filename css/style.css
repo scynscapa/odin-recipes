@@ -38,16 +38,10 @@ a:hover {
 .ingredients-mainimg {
     margin: 2px;
     padding: 4px;
-
-    display: inline-block;
+    display: flex;
 }
-.mainimg,
-.ingredients {
-    display: inline-block;
+
+.ingredients-mainimg div {
     padding: 2px;
-    vertical-align: middle;
-}
-
-.mainimg {
-    vertical-align: middle;
+    flex: 1;
 }
